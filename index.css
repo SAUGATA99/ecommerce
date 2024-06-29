@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav .logo {
+    min-width: 150px;
+    min-height: 50px;
+    margin-left: 1rem;
+}
+
+nav .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+nav .nav-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0px;
+}
+
+nav .nav-links ul li {
+    list-style-type: none;
+}
+
+nav .nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+nav .nav-links li a:hover{
+    color: #ff6347;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    padding: 5rem;
+    background-color: #eee;
+}
+
+
+
+
+
+
+#hero {
+    background-color: #ff6347;
+    padding: 5rem 5rem 1rem 5rem;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+.common_button {
+    color: white;
+    background-color: #333;
+    border: none;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: background-color 0.2s ease-in-out;
+    width: fit-content;
+}
+
+.common_button:hover {
+    background-color: red;
+}
+
+#hero .offer {
+    color: white;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    background-color: brown;
+    width: fit-content;
+    border-radius: 0.8rem;
+}
+
+
+
+
+
+#category h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#category .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+#category .category_tile {
+    background-color: white;
+    color: #333;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1rem;
+    box-shadow: 5px 5px 5px #ddd;
+}
+
+#category .category_tile img {
+    width: 15rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+#category .category_tile h3 {
+    margin-bottom: 0;
+}
+
+
+
+
+
+#product h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#product .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+#product .product_tile {
+    background-color: white;
+    color: #333;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    box-shadow: 5px 5px 5px #ddd;
+}
+
+#product .product_tile img {
+    width: 15rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+#product .product_tile p {
+    color: #ff6347;
+    font-size: 0.8rem;
+}
+
+
+
+
+#comparison {
+    background-color: white;
+}
+
+#comparison .container{
+    color: #333;
+}
+
+#comparison h1 {
+    font-size: 2rem;
+}
+
+#comparison table {
+    border: 2px solid tomato;
+    border-collapse: collapse;
+    margin-top: 4rem;
+}
+
+#comparison table th, #comparison table td {
+    border: 1px solid lightgray;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+#comparison table thead {
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+#testimony {
+    background-color: #333;
+}
+
+#testimony h1 {
+    font-size: 2rem;
+}
+
+#testimony .testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+#testimony .testimony_tile {
+    background-color: #444444;
+    width: 15rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+#testimony .testimony_tile .testimony_author {
+    color: #ff6347;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
